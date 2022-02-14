@@ -8,5 +8,8 @@
 }
 #css {
   background-color: grey;
-  font-family: sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+li {
+  text-align: center;
 }
