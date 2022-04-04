@@ -2,7 +2,8 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-			<title>Mi página web</title>
+    <meta name="viewport" content="width=device-width">
+		<title>Mi página web</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
 	</head>
 	<body>
@@ -10,14 +11,14 @@
     <h1>Mi Trabajo en TICII Alfonso Balado Izquierdo</h1>
     		<p>Me llamo Alfonso y estoy cursando 2º de Bachillerato Tecnológico en el IES Aramo. Me considero una persona curiosa por lo que tengo intereses diversos: música, tecnología, física...</p>
     </div>
-    <h2><em><strong>ÍNDICE</strong></em></h2>
+    <h2 id="top"><em><strong>ÍNDICE</strong></em></h2>
     <ol>
-      <li>Ejercicios introducción HTML</li>
-      <li>Ejercicios introducción CSS</li>
-      <li>Ejercicios de más etiquetas</li>
+      <li><a href="#IntroHTML">Ejercicios introducción HTML</a></li>
+      <li><a href="#IntroCSS">Ejercicios introducción CSS</a></li>
+      <li><a href="#Masetiquetas">Ejercicios de más etiquetas</a></li>
     </ol>
     <div id="HTML"> 
-    <h2>Mis ejercicios: Introducción al HTML</h2>
+    <h2 id="IntroHTML">Mis ejercicios: Introducción al HTML</h2>
 		<ol>
 			<li><a href="ejercicios_html/html-ejerc1-intro.html"><em>INTRODUCCIÓN</em></a>
 			<li><a href="ejercicios_html/html-ejerc2-poema.html"><em>POEMA</em></a>
@@ -28,8 +29,9 @@
 			<li><a href="ejercicios_html/html-ejerc7-viaje.html"><em>VIAJE</em></a>
 		</ol>
   </div>
+  <p class="vuelve link">Vuelve al <a href="#top">index</a></p>
   <div id="css">
-  <h2>Mis ejercicios: Introducción a CSS</h2>
+  <h2 id="IntroCSS">Mis ejercicios: Introducción a CSS</h2>
   <ol start="8">
 			<li><a href="ejercicios_html/html-ejerc8-color.html"><em>COLOR</em></a>
 			<li><a href="ejercicios_html/html-ejerc9-criatura.html"><em>CRIATURA</em></a>
@@ -40,6 +42,11 @@
 			<li><a href="ejercicios_html/html-ejerc14-desafio-clases (1).html "><em>DESAFÍO CLASES</em></a>
 	</ol>
   </div>
+  <p class="vuelve link">Vuelve al <a href="#top">index</a></p>
+  <div id="masetiq">
+  <h2 id="Masetiquetas">Mis ejercicios: Más etiquetas</h2>
+  </div>
+  <p class="vuelve link">Vuelve al <a href="#top">index</a></p>
 	<h2>Web Hosting</h2>
 		<p>El web hosting (alojamiento web) es el servicio que proporciona a los usuarios un sistema para poder almacenar información, es decir, facilitan el espacio en el disco duro de un ordenador<br> conectado a la red. Es el lugar que ocupa una página web en Internet o en un servidor.</p>
 		<p>Esta web está alojada en GitHub y se puede acceder a esta a través de: https://alfonsoib.github.io</p>
