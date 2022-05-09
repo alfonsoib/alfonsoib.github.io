@@ -32,3 +32,10 @@ li {
 .link:hover, .link:active {
   background-color: red;
 }
+.tituloexamen {
+  font-family: Bold, Arial, Helvetica, sans-serif;
+  background-color: #f44336;
+}
+#examenfinal {
+font-family: Arial, Helvetica, sans-serif;
+  }
